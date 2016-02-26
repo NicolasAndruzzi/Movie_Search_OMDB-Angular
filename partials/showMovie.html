@@ -1,4 +1,40 @@
-<div>
-  {{singleMovie.Title}}
-  {{singleMovie.Year}}
+<div class="thumbnail" id="thumbnailShow">
+  <h1><u>{{movie.Title}}</u></h1>
+  <img id="posterShow" src="{{movie.Poster}}" alt='No Poster Found for "{{movie.Title}}"' />
+  <div id="allInfo">
+    <b>Starring:</b> {{movie.Actors}}
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<i>{{movie.Plot}}</i>
+    <br>
+    <br>
+    <h4><u>Additional Info:</u></h4>
+    <br>
+    <b>Genre:</b>
+    <p>{{movie.Genre}}</p>
+    <b>Released:</b>
+    <p>{{movie.Released}}</p>
+    <b>IMDB Rating:</b>
+    <p>{{movie.imdbRating}}</p>
+    <b>IMDB Votes:</b>
+    <p>{{movie.imdbVotes}}</p>
+    <b>Metascore:</b>
+    <p>{{movie.Metascore}}</p>
+    <b>Rated:</b>
+    <p>{{movie.Rated}}</p>
+    <b>Director:</b>
+    <p>{{movie.Director}}</p>
+    <b>Writers:</b>
+    <p>{{movie.Writers}}</p>
+    <b>Actors:</b>
+    <p>{{movie.Actors}}</p>
+    <b>Awards:</b>
+    <p>{{movie.Awards}}</p>
+    <b>Runtime:</b>
+    <p>{{movie.Runtime}}</p>
+    <b>Language:</b>
+    <p>{{movie.Language}}</p>
+    <b>Country:</b>
+    <p>{{movie.Country}}</p>
+  </div>
 </div>

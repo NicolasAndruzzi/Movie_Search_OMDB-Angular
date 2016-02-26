@@ -9,3 +9,33 @@ header input {
 header button {
   margin-top: 1.5vh;
 }
+
+#poster {
+  height: 50vh;
+  width: 25vw;
+}
+
+#thumbnailList {
+  margin: 3vh;
+}
+
+#posterShow {
+  height: 45vh;
+  width: 20vw;
+  margin: 2.5vh 1vw 0 0;
+  float: left;
+}
+
+#thumbnailShow {
+  width: 50vw;
+  min-height: 65vh;
+  margin: 2.5vh 25vw;
+  text-align: left;
+}
+
+#allInfo {
+  width: 27vw;
+  /*background-color: red;*/
+  margin-left: 21.5vw;
+  margin-top: 5vh;
+}
